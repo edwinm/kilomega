@@ -1,0 +1,49 @@
+{
+	"name": "kilomega",
+	"version": "1.0.0",
+	"description": "Get the right metric unit prefix for a certain bit or byte amount.",
+	"license": "MIT",
+	"module": "kilomega.js",
+	"main": "kilomega.common.js",
+	"types": "kilomega.d.ts",
+	"sideEffects": false,
+	"scripts": {
+		"build": "npx babel kilomega.js -o kilomega.common.js",
+		"test": "npx jest",
+		"coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls",
+		"example": "node example.js"
+	},
+	"keywords": [
+		"metric",
+		"si",
+		"iec",
+		"prefix",
+		"kilo",
+		"mega",
+		"giga",
+		"tera"
+	],
+	"author": {
+		"name": "Edwin Martin",
+		"email": "edwin@bitstorm.org",
+		"url": "https://bitstorm.org/"
+	},
+	"files": [
+		"kilomega.js",
+		"kilomega.common.js",
+		"kilomega.d.ts"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/edwinm/kilomega.git"
+	},
+	"devDependencies": {
+		"babel-cli": "^6.26.0",
+		"babel-plugin-transform-es2015-modules-simple-commonjs": "^0.3.0",
+		"coveralls": "^3.0.3",
+		"jest": "^24.1.0",
+		"webpack": "^4.19.0",
+		"webpack-cli": "^3.1.0"
+	},
+	"dependencies": {}
+}
