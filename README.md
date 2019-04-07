@@ -1,3 +1,5 @@
+[![Build status](https://api.travis-ci.org/edwinm/kilomega.svg?branch=master)](https://travis-ci.org/edwinm/kilomega) [![Coverage Status](https://coveralls.io/repos/github/edwinm/kilomega/badge.svg?branch=master)](https://coveralls.io/github/edwinm/kilomega?branch=master) [![npm version](https://badge.fury.io/js/kilomega.svg)](https://www.npmjs.com/package/kilomega) [![GitHub](https://img.shields.io/github/license/edwinm/kilomega.svg)](https://github.com/edwinm/kilomega/blob/master/LICENSE)    
+
 # kilomega
 
 > Get the right unit prefix like kilo of mega for a certain bit or byte amount.
@@ -55,7 +57,7 @@ const result = displayAmount(28946022);
 
 ## API
 
-### range( amount )
+### kilomega( amount )
 
 Returns an with the converted amount and corresponding prefixes.
 
