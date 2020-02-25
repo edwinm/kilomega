@@ -84,7 +84,7 @@ The converted amount and the corresponding IS and IEC prefixes.
 npm test
 ```
 
-## Related
+## Related information
 
 - [Wikipedia on binary prefix](https://en.wikipedia.org/wiki/Binary_prefix)
 
