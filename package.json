@@ -1,6 +1,6 @@
 {
 	"name": "kilomega",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "Get the right metric unit prefix for a certain bit or byte amount.",
 	"license": "MIT",
 	"module": "kilomega.js",

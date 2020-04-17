@@ -1,7 +1,7 @@
 "use strict";
 
 /**!
- @preserve kilomega 1.0.3
+ @preserve kilomega 1.0.4
  @copyright 2019 Edwin Martin
  @license MIT
  */
