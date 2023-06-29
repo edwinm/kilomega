@@ -11,7 +11,7 @@
 		"build": "npx babel kilomega.js -o kilomega.common.js",
 		"test": "npx jest",
 		"coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls",
-		"example": "node example.js"
+		"example": "node example/example.js"
 	},
 	"keywords": [
 		"metric",

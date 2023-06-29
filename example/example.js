@@ -1,4 +1,6 @@
-const { kilomega } = require("./");
+// Use kilomega with Node.js
+
+const { kilomega } = require("../");
 
 function displayAmount(bytes) {
 	const bytesize = kilomega(bytes);

@@ -3,7 +3,8 @@
 
 > Get the right unit prefix like kilo of mega for a certain bit or byte amount.
 
-If you want to convert `18248932` to `"17.4 MB"`.
+If you want to convert a number of bits or bytes to a readable notation,
+like `18248932` to `"17.4 MB"`.
 
 ## Installation
 
@@ -13,19 +14,31 @@ $ npm install kilomega
 
 ## Usage
 
-With a bundler, for browsers:
+You can include kilomega in three different ways:
+
+1) For browsers, when you use a bundler:
 
 ```js
 import { kilomega } from 'kilomega';
 ```
 
-Or, for use in Node.js:
+2) For browsers, without the need to build or install kilomega:
+
+```js
+const { kilomega } = await import('https://cdn.jsdelivr.net/gh/edwinm/kilomega@1.0/kilomega.js');
+```
+
+See [dynamic-import.js](example/dynamic-import.js) in the example directory.
+
+3) Or, for use in Node.js:
 
 ```js
 const { kilomega } = require('kilomega');
 ```
 
-Then:
+See [example.js](example/example.js) in the example directory.
+
+Then call the kilomega function:
 
 ```js
 const result = kilomega(489382653442);
@@ -37,8 +50,10 @@ const result = kilomega(489382653442);
 // 		symbol: "G",
 // 	}
 ```
+(489382653442 bytes is 455.77 gigabytes)
 
-Complete practical example:
+A complete practical example with number formatting for the specified locale (en-US) and with a
+specified number of digits (3):
 
 ```js
 const { kilomega } = require("kilomega");
@@ -53,6 +68,8 @@ function displayAmount(bytes) {
 const result = displayAmount(28946022);
 //=> 27.6 MB
 ```
+
+(28946022 bytes is 27.6 megabytes)
 
 ## API
 
@@ -90,4 +107,4 @@ npm test
 
 ## License
 
-MIT © 2019 [Edwin Martin](https://bitstorm.org/)
+MIT © 2023 [Edwin Martin](https://bitstorm.org/)
