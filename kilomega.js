@@ -1,5 +1,5 @@
 /**!
- @preserve kilomega 1.0.4
+ @preserve kilomega 1.0.5
  @copyright 2019 Edwin Martin
  @license MIT
  */
