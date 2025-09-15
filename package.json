@@ -14,6 +14,8 @@
 		"example": "node example/example.js"
 	},
 	"keywords": [
+		"front-end",
+		"backend",
 		"metric",
 		"si",
 		"iec",
