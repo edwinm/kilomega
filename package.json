@@ -40,11 +40,11 @@
 		"url": "https://github.com/edwinm/kilomega.git"
 	},
 	"devDependencies": {
-		"babel-cli": "^6.26.0",
-		"babel-plugin-transform-es2015-modules-simple-commonjs": "^0.3.0",
-		"coveralls": "^3.1.1",
-		"jest": "^29.5.0",
-		"webpack": "^5.88.1",
-		"webpack-cli": "^6.0.1"
+		"@babel/cli": "^7.28.6",
+		"@babel/core": "^7.29.0",
+		"@babel/plugin-transform-modules-commonjs": "^7.28.6",
+		"jest": "^30.3.0",
+		"webpack": "^5.105.4",
+		"webpack-cli": "^7.0.2"
 	}
 }
